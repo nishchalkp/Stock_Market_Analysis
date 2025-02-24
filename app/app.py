@@ -9,7 +9,7 @@ from statsmodels.tsa.statespace.sarimax import SARIMAX
 # Load saved SARIMAX model
 @st.cache_resource
 def load_model():
-    return joblib.load(r"C:\Users\Nishchal\Data Science\Projects\stock_market_analysis\eda\timeseries.pkl")
+    return joblib.load(r"eda\timeseries.pkl")
 
 
 model = load_model()
